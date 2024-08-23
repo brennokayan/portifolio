@@ -18,9 +18,9 @@ export const ProjectsDatabase = [
     // {name: "Calculadora", description: "Calculadora com design Claymorphism", img: CalculadoraClaymorphism},
     // {name: "Calculadora de Preço", description: "Calculadora com design Claymorphism", img: CalculadoraDePreco},
     // {name: "Conversor de Moeda", description: "Calculadora com design Claymorphism", img: Cambio},
-    {name: "Gerador de Senha", description: "Calculadora com design Claymorphism", img: GeradorDeSenha},
-    {name: "Pokedex", description: "Calculadora com design Claymorphism", img: Pokedex},
-    {name: "RPG Movimento", description: "Calculadora com design Claymorphism", img: RPGMove},
+    {name: "Gerador de Senha", description: "Aplicação para gerar senha, seja com letras, números ou até mesmo caracteres especiais", img: GeradorDeSenha},
+    {name: "Pokedex", description: "Uma Pokedex, consumo de uma API e demonstração dos dados.", img: Pokedex},
+    {name: "RPG Movimento", description: "Mini Jogo em RPG que possibilita a interação com alguns objetos no mapa.", img: RPGMove},
     // {name: "Tradutor de texto para voz", description: "Calculadora com design Claymorphism", img: TradutorDeTextoParaVoz},
 
 

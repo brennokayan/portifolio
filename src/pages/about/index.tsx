@@ -12,11 +12,12 @@ export function AboutMe() {
           display: "flex",
           flexDirection: "column",
           gap: 2,
-          height: "100vh",
+          height: {xs: "auto", sm: "100vh"},
           alignItems: "center",
           justifyContent: "center",
           borderTop: "1px solid #fff",
           // bgcolor: "#000",
+          py: 4
         }}
       >
         <h1>Sobre Mim</h1>

@@ -16,7 +16,7 @@ export function Projects() {
           alignItems: "center",
           justifyContent: "center",
           borderTop: "1px solid #fff",
-          pt: 12,
+          py: 12,
         }}
       >
         <h1>Projetos</h1>
@@ -53,7 +53,7 @@ export function Projects() {
               <Box
                 sx={{
                   width: { xs: "100%", sm: "50%" }, // Largura da imagem responsiva
-                  height: "100%", // Altura da imagem
+                  height: {xs: "50%", sm: "100%"}, // Altura da imagem
                   display: "flex",
                   alignItems: "center",
                   justifyContent: "center",
