@@ -1,6 +1,7 @@
 import { Box, Button } from "@mui/material";
 import ImagemPessoal from "../../assets/imagem_minha_para_primeira_tela_editada.png";
 import { RollToRef } from "../../utils/defaultFunctions";
+import CurriculoVitae from "../../assets/curriculo vitae Brenno Kayan.pdf";
 export function Home() {
   return (
     <>
@@ -29,13 +30,12 @@ export function Home() {
           <p style={{ color: "rgba(255,255,255,.7)" }}>
             Desenvolvedor Full-Stack
           </p>
-          <p style={{ color: "rgba(255,255,255,.7)" }}>
-              &
-          </p>
+          <p style={{ color: "rgba(255,255,255,.7)" }}>&</p>
           <p style={{ color: "rgba(255,255,255,.7)" }}>
             Cientista da Computação
           </p>
           <Box sx={{ my: 2, display: "flex", gap: 2 }}>
+            <a href={CurriculoVitae} download>
             <Button
               sx={{
                 bgcolor: "white",
@@ -45,8 +45,13 @@ export function Home() {
             >
               Baixar CV
             </Button>
+            </a>
             <Button
-            onClick={() => RollToRef("whatsapp://send?phone=+5566999552218&text=Olá%20Brenno%20Kayan,%20tudo%20bem?")}
+              onClick={() =>
+                RollToRef(
+                  "whatsapp://send?phone=+5566999552218&text=Olá%20Brenno%20Kayan,%20tudo%20bem?"
+                )
+              }
               sx={{
                 color: "white",
                 border: "1px solid white",
