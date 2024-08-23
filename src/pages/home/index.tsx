@@ -1,10 +1,11 @@
 import { Box, Button } from "@mui/material";
 import ImagemPessoal from "../../assets/imagem_minha_para_primeira_tela_editada.png";
+import { RollToRef } from "../../utils/defaultFunctions";
 export function Home() {
   return (
     <>
       <Box
-      id = "home"
+        id="home"
         sx={{
           height: "100vh",
           bgcolor: "#1d1c1a",
@@ -39,15 +40,21 @@ export function Home() {
               Baixar CV
             </Button>
             <Button
-              sx={{ color: "white", border: "1px solid white" }}
+            onClick={() => RollToRef("whatsapp://send?phone=+5566999552218&text=Olá%20Brenno%20Kayan,%20tudo%20bem?")}
+              sx={{
+                color: "white",
+                border: "1px solid white",
+                ":hover": {
+                  borderColor: "rgba(255,255,255,0)",
+                  backgroundColor: "#777",
+                },
+              }}
               variant="outlined"
             >
               Entrar em contato
             </Button>
           </Box>
         </Box>
-
-        
       </Box>
     </>
   );
