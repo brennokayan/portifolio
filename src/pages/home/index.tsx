@@ -29,6 +29,12 @@ export function Home() {
           <p style={{ color: "rgba(255,255,255,.7)" }}>
             Desenvolvedor Full-Stack
           </p>
+          <p style={{ color: "rgba(255,255,255,.7)" }}>
+              &
+          </p>
+          <p style={{ color: "rgba(255,255,255,.7)" }}>
+            Cientista da Computação
+          </p>
           <Box sx={{ my: 2, display: "flex", gap: 2 }}>
             <Button
               sx={{
